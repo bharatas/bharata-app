@@ -1,3 +1,13 @@
-.navbar-brand {
-    color: aqua; 
+.navbar-inverse .navbar-brand {
+    color: khaki; 
  }
+
+ .navbar-inverse {
+    background-color: burlywood;
+    border-color: #080808;
+}
+
+.slideCustom {
+    text-align: center;
+    
+}

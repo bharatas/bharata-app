@@ -1,5 +1,5 @@
 
-import {Navbar, Nav, NavItem, MenuItem, NavDropdown} from "react-bootstrap";
+import {Navbar, Nav, MenuItem, NavDropdown} from "react-bootstrap";
 import React from "react";
 import "../../sass/bootstrapUI.scss";
 
@@ -10,34 +10,17 @@ export default class TopHeader extends React.Component {
       <div>
         <Navbar inverse collapseOnSelect>
           <Navbar.Header>
-            <Navbar.Brand>
-              <a href="#brand">BhaRaTa Spandana</a>
+            <Navbar.Brand className="customBrand">
+              <a href="#brand">Bharata Spandana</a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
-            <Nav>
-              <NavItem eventKey={1} href="#">
-                Link
-            </NavItem>
-              <NavItem eventKey={2} href="#">
-                Link
-            </NavItem>
-              <NavDropdown eventKey={3} title="Dropdown" id="basic-nav-dropdown">
-                <MenuItem eventKey={3.1}>Action</MenuItem>
-                <MenuItem eventKey={3.2}>Another action</MenuItem>
-                <MenuItem eventKey={3.3}>Something else here</MenuItem>
-                <MenuItem divider />
-                <MenuItem eventKey={3.3}>Separated link</MenuItem>
-              </NavDropdown>
-            </Nav>
             <Nav pullRight>
-              <NavItem eventKey={1} href="#">
-                Link Right
-            </NavItem>
-              <NavItem eventKey={2} href="#">
-                Link Right
-            </NavItem>
+              <NavDropdown eventKey={1} title="Account" id="basic-nav-dropdown">
+              <MenuItem eventKey={1.1}>Sign In</MenuItem>
+              <MenuItem eventKey={1.2}>Register</MenuItem>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
