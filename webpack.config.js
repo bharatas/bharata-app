@@ -39,7 +39,7 @@ module.exports = {
         extensions: ['.js', '.jsx'],
     },
     devServer: {
-        host: "0.0.0.0",
+        host: "bharataspandana.com",
         port: 49152,
         contentBase: path.join(__dirname, "dist"),
         compress: true
