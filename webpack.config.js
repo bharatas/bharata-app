@@ -30,7 +30,7 @@ module.exports = {
     },
     plugins: [new HtmlWebpackPlugin({
         title: 'Bha Ra Ta',
-        // Load a custom template (lodash by default see the FAQ for details)
+        // Load a custom template (lodash by default see  the FAQ for details)
         template: './src/index.html'
     }),
     new ExtractTextPlugin("app.css")

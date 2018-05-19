@@ -1,21 +1,36 @@
-.navbar-inverse .navbar-brand {
+/*.navbar-inverse .navbar-brand {
     color: khaki; 
  }
+
+.navbar-default {
+   background: rgba(0,0,0,0.35);
+   z-index: 999;
+ }
+
+  .navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+ .navbar-default .navbar-brand {
+    color: white;
+}
 
  .navbar-inverse {
     background-color: burlywood;
     border-color: #080808;
-}
+} */
+
+.navbar-default {
+    background: rgb(245, 166, 93);
+    z-index: 999;
+  }
+
+  .navbar-inverse {
+    background: linear-gradient(to bottom,#485563 0%,#29323c 100%);
+    z-index: 999;
+} 
 
 .slideCustom {
-    width: 50%;
-	height: 50%;
-	position: relative;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	
-	margin: auto;
+
     
 }

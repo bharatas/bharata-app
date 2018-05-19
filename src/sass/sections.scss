@@ -1,0 +1,47 @@
+.section1 {
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.section2 {
+    background: white;
+    width: 100%;
+
+}
+
+.page-header {
+    border-bottom: 1px solid #eee;
+    margin: 0%;
+}
+
+.section3 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 650px;
+    height: 500px;
+    padding-top: 1%;
+  }
+
+.section4 {
+    padding: 5%;
+    background: white;
+    width: 100%;
+
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.centerDiv {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}

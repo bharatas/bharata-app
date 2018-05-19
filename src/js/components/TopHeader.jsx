@@ -2,6 +2,7 @@
 import {Navbar, Nav, MenuItem, NavDropdown} from "react-bootstrap";
 import React from "react";
 import "../../sass/bootstrapUI.scss";
+import * as globalConstants from "../constants/Global";
 
 
 export default class TopHeader extends React.Component {
@@ -10,8 +11,8 @@ export default class TopHeader extends React.Component {
       <div>
         <Navbar inverse collapseOnSelect>
           <Navbar.Header>
-            <Navbar.Brand className="customBrand">
-              <a href="#brand">Bharata Spandana</a>
+            <Navbar.Brand>
+              <a href="#brand">{globalConstants.bharata.NAME}</a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
