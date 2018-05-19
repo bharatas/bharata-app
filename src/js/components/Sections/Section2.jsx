@@ -13,7 +13,7 @@ export default class Section2 extends React.Component {
         return (
             <div className="section2" >
             <PageHeader>
-                Bha Ra Ta <small>Bhava Raaga Taala</small>
+            <small> <b>Bha</b>va <b>Ra</b>aga <b>Ta</b>ala</small>
             </PageHeader>
             </div>
         );

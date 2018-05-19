@@ -1,6 +1,7 @@
 import React from "react";
 import "../../../sass/sections.scss";
-import {Grid, Row, Col, NavDropdown} from "react-bootstrap";
+import {Jumbotron, Button} from "react-bootstrap";
+import { Row, Col } from "react-materialize";
 
 export default class Section4 extends React.Component {
 
@@ -12,20 +13,23 @@ export default class Section4 extends React.Component {
         return (
             <div className="section4" >
                 <div className="centerDiv">
-                <Grid>
-                    <Row className="show-grid">
-                        <Col xs={3} md={3}>
-                            Yoga
+                    <Row>
+                        <Col s={3} m={3} l={3} className='grid-example'>
+                            <Jumbotron>
+                                <h1>Hello, world!</h1>
+                                <p>
+                                    This is a simple hero unit, a simple jumbotron-style component for calling
+                                    extra attention to featured content or information.
+                                </p>
+                                <p>
+                                    <Button bsStyle="primary">Learn more</Button>
+                                </p>
+                            </Jumbotron>;
                         </Col>
-                        <Col xs={3} md={3}>
-                            Meditation
-                        </Col>
-                        <Col xs={3} md={3}>
-                            Poetry
-                        </Col>
-                    </Row>
+                        <Col s={3} m={3} l={3} className='grid-example'>2</Col>
+                        <Col s={3} m={3} l={3} className='grid-example'>3</Col>
 
-                </Grid>
+                    </Row>
                 </div>
             </div>
         );
